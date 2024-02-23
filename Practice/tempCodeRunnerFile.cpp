@@ -97,7 +97,6 @@ int main(){
     for(int i=0;i<n;i++){
         reverseArray[i]=arr[n-(i+1)];
     }
-    cout<<endl;
     cout<<"The reversed Array is-> ";
     for(int i=0;i<n;i++){
         cout<<reverseArray[i]<<" ";
