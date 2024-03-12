@@ -74,17 +74,23 @@ int main(){
     else{
         cout<<"Your Name is not a Palindrome "<<endl;
     }
-    
+    // Clear input buffer
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
     string str;
     cout<<"Enter the string:- ";
     getline(cin,str);
     cout<<"The String entered is "<<str<<endl;
+
     string s1 = "Hello World";
     cout<<s1<<endl;
+
     cout<<endl;
+
     string str1;
     cin>>str1;
     cout<<getMaxOccChar(str1)<<endl;
+    
     string s2;
     cin>>s2;
     string part = "ush";
