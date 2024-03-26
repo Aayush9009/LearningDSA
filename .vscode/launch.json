@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/aayushgupta9009/Desktop/LearningDSA/testfolder",
-      "program": "/Users/aayushgupta9009/Desktop/LearningDSA/testfolder/build/Debug/outDebug"
+      "cwd": "/Users/aayushgupta9009/Desktop/LearningDSA/L23",
+      "program": "/Users/aayushgupta9009/Desktop/LearningDSA/L23/build/Debug/outDebug"
     }
   ]
 }
